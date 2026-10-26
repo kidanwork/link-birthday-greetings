@@ -11,3 +11,6 @@
 
 /* Shared navigation and upcoming story */
 .site-menu{align-items:center;margin-bottom:28px;padding-bottom:20px;border-bottom:1px solid #d2dcd7}.site-brand{text-decoration:none;color:var(--ink);font-weight:900;font-size:20px}.site-links{display:flex;gap:8px;flex-wrap:wrap}.site-links a{text-decoration:none;padding:10px 16px;border-radius:24px;color:var(--ink);font-weight:700}.site-links a[aria-current=page]{background:var(--ink);color:var(--paper)}.site-links a:hover{background:#dce7e4;color:var(--ink)}.story-button{display:inline-flex;align-items:center;gap:22px;padding:14px 24px;margin-top:12px;border:2px solid var(--ink);border-radius:10px;text-decoration:none;background:var(--ink);color:var(--paper);font-weight:800;box-shadow:4px 4px 0 var(--gold)}.story-button:hover{background:var(--sea)}.story-coming{max-width:700px;padding:25px 0 70px}.story-coming>p:not(.eyebrow){line-height:1.7}.story-coming h1{font-size:clamp(34px,6vw,60px)}@media(max-width:700px){.site-menu{gap:16px}.site-brand{font-size:18px}.site-links a{padding:10px 12px}.story-button{padding:13px 20px}}
+
+.story-footer{margin-top:44px;padding-top:26px;border-top:1px solid #d2dcd7}
+
