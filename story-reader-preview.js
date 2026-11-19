@@ -1,6 +1,6 @@
 (() => {
  'use strict';
- const release=0; // Temporary preview authorized by Daria; restore scheduled reader after review.
+ const release=Date.parse('2026-11-21T00:01:00+03:00');
  const gate=document.getElementById('story-gate'),reader=document.getElementById('story-reader'),clock=document.getElementById('story-countdown');
  let manifest,index=0,opening=false;
  function save(){try{localStorage.setItem('link-story-position',String(index));}catch{}}
